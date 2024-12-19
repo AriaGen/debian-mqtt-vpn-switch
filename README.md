@@ -1,11 +1,11 @@
-//Install what you'll need and set up a python vertual env. Adjust for your mqtt server.
+//Install what you'll need and set up a python vertual env. Adjust for your mqtt server.<br><br>
 
-"sudo apt update
+sudo apt update
 sudo apt install mosquitto-clients python3 python3-pip
 sudo apt install python3.11-venv
 python3 -m venv /opt/mqtt_listener_env
 source /opt/mqtt_listener_env/bin/activate
-pip install paho-mqtt"
+pip install paho-mqtt
 
 //create and install python script
 mkdir /etc/vpnswitch
