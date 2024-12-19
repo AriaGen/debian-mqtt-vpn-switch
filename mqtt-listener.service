@@ -1,0 +1,12 @@
+[Unit]
+Description=MQTT Switch Listener Service
+After=network.target
+
+[Service]
+ExecStart=/opt/mqtt_listener_env/bin/python /etc/vpnswitch/mqtt_service_listener.py
+Restart=always
+User=root
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
