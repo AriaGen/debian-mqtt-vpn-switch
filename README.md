@@ -9,6 +9,7 @@ pip install paho-mqtt<br>
 <br>
 //create and install python script<br>
 mkdir /etc/vpnswitch<br>
+cd /etc/vpnswitch<br>
 nano mqtt_service_listener.py<br>
 <br>
 //create and install the service<br>
